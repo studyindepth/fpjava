@@ -1,6 +1,6 @@
 # Introduction to streams
 
-Contents:
+**Contents:**
 
 1. What is a stream?
 2. Collections vs. streams
