@@ -13,7 +13,9 @@
 
 * **Sequence of elements:** Just like a collection, a stream provides an interface to a sequenced set of values of specific types. Since collections are data structures, so they're mostly about sorting and accessing elements with specific space/time complexities. Unlike collections, streams are about expressing computations such as filter, map, recduce, and so on. In short/to sum up/briefly, **collections are about data, streams about computations**.
 * **Source**: streams consume from data-providing sources such as collections, arrays, I/O resources. Note, generating a stream from an ordered collections preseves the ordering
-* **Data processing operations:** streams support database-like operations and common functional programming operations such as filter, map, reduce, match, sort, and on. **Streams operations can be executed sequentially and in parallel**. 
+* **Data processing operations:** streams support database-like operations and common functional programming operations such as filter, map, reduce, match, sort, and on. **Streams operations can be executed sequentially or in parallel**. 
+
+![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/stream.png "Streams and Operations")
 
 Streams also have two important characteristics:
 
