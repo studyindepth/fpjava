@@ -15,6 +15,8 @@
 * **Source**: streams consume from data-providing sources such as collections, arrays, I/O resources. Note, generating a stream from an ordered collections preseves the ordering
 * **Data processing operations:** streams support database-like operations and common functional programming operations such as filter, map, reduce, match, sort, and on. **Streams operations can be executed sequentially or in parallel**. 
 
+Streams and Operations:
+
 ![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/stream.png "Streams and Operations")
 
 Streams also have two important characteristics:
