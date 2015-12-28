@@ -17,7 +17,6 @@
 
 
 ![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/stream.png "Streams and Operations")
-->Streams and Operations:<-
 
 Streams also have two important characteristics:
 
