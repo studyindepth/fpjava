@@ -34,6 +34,6 @@ Streams can be traversed only once, which is similar to iterators. To traverse a
 
 Collections use external iteration while streams use internal iteration, streams do iteration, and we only have provide the function saying what's to be done. In additiona, using an internal iteration, processing elements could be transpanrently done in parallel or in different order that can be more optimized. 
 
-![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/interalvsexternal.png "internal vs external")
+![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/internalvsexternal.png "internal vs external")
 
 
