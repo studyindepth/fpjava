@@ -26,4 +26,4 @@ Streams also have two important characteristics:
 ## Collections vs. Streams?
 
 Streams are conceptually fixed data structrues whose elements are **computed on demand**, adding and removing elements are not supported. In constrast, collections are eagerly constructed. 
-![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/streamsvscollecitons.png "Streams vs Operations")
+![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/streamsvscollections.png "Streams vs Operations")
