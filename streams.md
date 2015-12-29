@@ -23,4 +23,7 @@ Streams also have two important characteristics:
 * **Pipelining:** Many streams can return another streams, so operations can be chained and form a larger stream. This enables certain optimizations such as **laziness and short-curcuiting**. Pipelining operations can be viewed as database-like query on the data source. **Streams in Java are lazy**
 * **Internal iteration:** In constrast to colletions, which are interated explicitly using an iterator, **streams operations do iteration behind the scence or internally**. By using internal iteration, streams operations can be easily and transparently parallelized to exploit all available cpu cores. 
 
+## Collections vs. Streams?
 
+Streams are conceptually fixed data structrues whose elements are **computed on demand**, adding and removing elements are not supported. In constrast, collections are eagerly constructed. 
+![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/streamsvscollecitons.png "Streams vs Operations")
