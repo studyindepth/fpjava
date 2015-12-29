@@ -27,3 +27,13 @@ Streams also have two important characteristics:
 
 Streams are conceptually fixed data structrues whose elements are **computed on demand**, adding and removing elements are not supported. In constrast, collections are eagerly constructed. 
 ![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/streamsvscollections.png "Streams vs Operations")
+
+Streams can be traversed only once, which is similar to iterators. To traverse all elements again, we have create a new stream from the initial data source, but this is only applied for repeatable data sources like collections, I/O it's quite different (that I don't know).
+
+## External iteration vs. Internal iteration
+
+Collections use external iteration while streams use internal iteration, streams do iteration, and we only have provide the function saying what's to be done. In additiona, using an internal iteration, processing elements could be transpanrently done in parallel or in different order that can be more optimized. 
+
+![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/interalvsexternal.png "internal vs external")
+
+
