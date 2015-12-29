@@ -36,4 +36,23 @@ Collections use external iteration while streams use internal iteration, streams
 
 ![alt text](https://github.com/StudyInDepth/Functional-Programming/blob/master/images/internalvsexternal.png "internal vs external")
 
+## Stream operations
+
+The Stream interface defines many operations that can be classified into two categories:
+* Intermidate operations: map, filter, sorted, limit, ...
+* Terminate operations: collect, reduce, forEach, ...
+
+Intermidate operations return a stream as return type, which allows operations to be connected to form a query (like a database query). Intermidate operations are not performed until a terminate operation is invoked on the stream pipeline. This is because intermidate operations are usually merged and processed into a single pass (**Loop fusion**) by the terminate operation. **Streams are lazy and short-circuiting.**
+
+Terminate operatiions produce a result from a stream pipeline. A result is non-stream value such as List, Integer, or void,... 
+
+## Working with streams involves three items:
+* A data source to perform a query
+* Intermidate operations that forms a stream pipeline 
+* Terminate operation that executes the stream pipeline and produces a result
+
+
+
+ 
+
 
